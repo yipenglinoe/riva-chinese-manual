@@ -19,19 +19,6 @@ DATA CENTER数据中心
 
 3 您安装了支持 NVIDIA GPU 的 Docker。详情请参阅Support Matrix — NVIDIA Riva Skills
 
-Embedded嵌入式平台
-1 您可以访问并登录到 NVIDIA NGC。有关NGC说明，请参阅NGC Overview :: NVIDIA GPU Cloud Documentation
-2 您可以使用Linux aarch64架构的操作系统的嵌入式平台硬件
-•	NVIDIA Jetson AGX Xavier
-•	NVIDIA Jetson NX Xavier
-
-3 您已在 Jetson Xavier 上安装了 NVIDIA JetPack™ 4.6.1 版。有关详细信息，请参阅支持矩阵。
-
-4 根据默认容器和模型的要求，您在 Jetson 上需要有约至少 7 GB 的可用磁盘空间。如果需要部署自定义 Riva 模型中间表示 (RMIR) 模型，则所需要约为 5 GB 加上自定义 RMIR 模型的大小的额外磁盘空间。
-
-5 您已经在Jetson平台上启用了以下电源模式。 这些模式激活所有的CPU核，并以最高频率时钟CPU/GPU，以获得最佳性能。启用指令如下： 
-
-
   
 可供部署的模型  
 有两种方式可以使用NGC目录中所提供的预训练模型来部署Riva技能:  
